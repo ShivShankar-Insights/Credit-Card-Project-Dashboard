@@ -1,10 +1,53 @@
-Objective: To analyze credit card transaction data to produce comprehensive dashboards for a Credit Card Transaction Report and a Credit Card Customer Report, providing insights to enhance business strategies and customer satisfaction.
+📊 Credit Card Transaction & Customer Report  
 
-Steps:
+ 🛠 Objective  
+To analyze credit card transaction data and create insightful dashboards that drive business strategies and enhance customer satisfaction.  
 
-Data Cleaning: o Removed duplicates and unnecessary columns. o Corrected data types. o Added columns such as age group and salary group for detailed analysis.
-Data Loading: o Loaded the dataset into MySQL Server. o Connected MySQL Server to Power BI for real-time data synchronization.
-Data Analysis: o Utilized DAX functions including SWITCH, CALCULATE, TIME INTELLIGENCE functions, and WEEKNUM() for robust data analysis and reporting.
-Insights: • From the 51st week to the 52nd week, revenue decreased by 13.4%. • Total revenue till the 52nd week: $55.3M. • Total interest earned: $7.8M. • Total transaction amount: $44.5M. • Customers aged 40 to 50 are the most frequent credit card users. • Swiping is the most preferred method of using credit cards. • Customer satisfaction score: 3.19. • Male customers contribute more to revenue ($30M) compared to female customers ($25M). • Blue and silver credit cards account for 93% of overall transactions. • Texas, New York, and California contribute nearly 68% of the revenue. • Overall activation rate: 57.5%. • Overall delinquency rate: 6.07%.
+ 🔍 Data Processing Steps  
 
-Recommendations: • Implement targeted marketing campaigns for the 40-50 age group to further increase usage. • Promote swiping benefits to enhance customer satisfaction. • Focus on regions with lower revenue contributions to diversify income sources. • Introduce initiatives to reduce the delinquency rate and improve overall credit health. • Enhance features and rewards for blue and silver credit card holders to maintain their dominance.
+ 🔹 1. Data Cleaning  
+✅ Removed duplicates & unnecessary columns  
+✅ Corrected data types for consistency  
+✅ Added age group & salary group for deeper analysis  
+
+ 🔹 2. Data Loading  
+✅ Imported dataset into MySQL Server  
+✅ Connected MySQL Server to Power BI for real-time updates  
+
+ 🔹 3. Data Analysis  
+✅ Leveraged DAX functions such as SWITCH(), CALCULATE(), TIME INTELLIGENCE, and WEEKNUM() for advanced reporting  
+
+ 📈 Key Insights  
+
+📉 Revenue Decrease: ↓ 13.4% from Week 51 to Week 52  
+💰 Total Revenue: $55.3M  
+🏦 Total Interest Earned: $7.8M  
+📊 Total Transaction Amount: $44.5M  
+
+👥 Customer Behavior  
+🔹 Age Group 40-50: Most frequent credit card users  
+💳 Preferred Usage Method: Swiping  
+⭐ Customer Satisfaction Score: 3.19  
+
+👨‍💼 Revenue Contribution  
+🟦 Male Customers: $30M  
+🟪 Female Customers: $25M  
+
+🎨 Card Preferences  
+🔹 Blue & Silver Credit Cards: 93% of total transactions  
+
+🌎 Top Revenue-Contributing States  
+🏙 Texas, New York & California: 68% of total revenue  
+
+📊 Overall Business Metrics  
+🔹 Activation Rate: 57.5%  
+🔹 Delinquency Rate: 6.07%  
+
+ 🎯 Strategic Recommendations  
+
+📢 Targeted Marketing: Engage the 40-50 age group to boost credit card usage  
+💳 Promote Swiping Benefits: Encourage swiping to improve customer satisfaction  
+🌍 Expand Regional Focus: Boost revenue in underperforming states  
+⚠️ Reduce Delinquency: Implement initiatives to enhance credit health  
+🏆 Enhance Card Rewards: Strengthen loyalty programs for blue & silver cardholders  
+ 
